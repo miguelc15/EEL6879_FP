@@ -1,13 +1,13 @@
 import requests
 import pandas as pd
 import time
-from google.colab import drive
+#from colabcode import ColabCode
 
 # 🔐 Replace this with your real API key
-API_KEY = 'your_rentcast_api_key_here'
+API_KEY = '796e359e6a954b6382c347f0680f480b'
 
 # 📍 Target ZIP code
-ZIP_CODE = '32827'
+ZIP_CODE = '32789'
 STATE = 'FL'
 
 # 📦 API details
@@ -19,7 +19,7 @@ HEADERS = {
 
 # 📊 Setup
 LIMIT = 500
-MAX_REQUESTS = 50  # Prevent using all your quota at once
+MAX_REQUESTS = 10  # Prevent using all your quota at once
 all_properties = []
 
 print(f"🚀 Starting scrape for ZIP {ZIP_CODE}...")
@@ -56,12 +56,9 @@ df.drop_duplicates(subset='id', inplace=True)
 print(f"\n✅ Collected {len(df)} unique properties for ZIP {ZIP_CODE}")
 
 # 💾 Save locally
-local_path = f"rentcast_32827_properties.csv"
+
+local_path = f"rentcast_32789_properties.csv"
 df.to_csv(local_path, index=False)
 print(f"📁 File saved locally as {local_path}")
 
-# ☁️ Mount Google Drive and save there
-drive.mount('/content/drive')
-drive_path = f"/content/drive/MyDrive/rentcast_32827_properties.csv"
-df.to_csv(drive_path, index=False)
-print(f"✅ File also saved to your Google Drive: {drive_path}")
+
