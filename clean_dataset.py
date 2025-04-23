@@ -7,14 +7,15 @@ Original file is located at
     https://colab.research.google.com/drive/1fVhYEWiAjhKThFSyo5Jv0a8UyNO2CumO
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
-import os
-os.chdir('/content/drive/MyDrive/UCF/EEL6878/Data/')
-!ls
-
+from IPython.display import display
 import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 # Load the listings data (sale or rent)
 df_listings = pd.read_excel('sale_listings/sale_listings_32827.xlsx')
 print("Listings:")
@@ -127,7 +128,7 @@ df_listings['lotsize'] = df_listings.groupby('zipcode')['lotsize'].transform(lam
 df_listings['propertytype'] = df_listings['propertytype'].str.lower().str.strip().str.replace(" ", "_")
 
 # Create log-price for modeling
-import numpy as np
+
 df_listings['log_price'] = np.log1p(df_listings['price'])
 
 # Final check
@@ -135,10 +136,9 @@ print(df_listings.info())
 print(df_listings.isnull().mean().sort_values(ascending=False).head(10))
 
 # Save cleaned dataset
-df_listings.to_csv("clean/clean_listings_32827.csv", index=False)
+df_listings.to_csv("Data/Clean/clean_listings_32827.csv", index=False)
 
-import seaborn as sns
-import matplotlib.pyplot as plt
+
 
 sns.histplot(df_listings['log_price'], bins=40, kde=True)
 plt.title("Distribution of Log Price")
@@ -157,3 +157,6 @@ sns.scatterplot(
 plt.title("Map of Listings Colored by Log Price")
 plt.legend()
 plt.show()
+
+#saving df as csv file
+#df_listings.to_csv('clean_listings_32803.csv',index=False)
