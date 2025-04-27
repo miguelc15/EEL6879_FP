@@ -17,7 +17,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the listings data (sale or rent)
-df_listings = pd.read_excel('sale_listings/sale_listings_32827.xlsx')
+df_listings = pd.read_csv("Data/Listings/sale_listings_32839.csv")
 print("Listings:")
 display(df_listings.head())
 
@@ -136,7 +136,7 @@ print(df_listings.info())
 print(df_listings.isnull().mean().sort_values(ascending=False).head(10))
 
 # Save cleaned dataset
-df_listings.to_csv("Data/Clean/clean_listings_32827.csv", index=False)
+df_listings.to_csv("Data/Clean/clean_listings_32839.csv", index=False)
 
 
 

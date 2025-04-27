@@ -4,14 +4,14 @@ import time
 #from colabcode import ColabCode
 
 # 🔐 Replace this with your real API key
-API_KEY = '796e359e6a954b6382c347f0680f480b'
+API_KEY = 'c39e0650e4f846498fc7799dbce11a0f'
 
 # 📍 Target ZIP code
-ZIP_CODE = '32789'
+ZIP_CODE = '32835'
 STATE = 'FL'
 
 # 📦 API details
-BASE_URL = 'https://api.rentcast.io/v1/properties'
+BASE_URL = 'https://api.rentcast.io/v1/listings/sale'
 HEADERS = {
     'Accept': 'application/json',
     'X-Api-Key': API_KEY
@@ -57,7 +57,7 @@ print(f"\n✅ Collected {len(df)} unique properties for ZIP {ZIP_CODE}")
 
 # 💾 Save locally
 
-local_path = f"rentcast_32789_properties.csv"
+local_path = f"listings_32835_properties.csv"
 df.to_csv(local_path, index=False)
 print(f"📁 File saved locally as {local_path}")
 
