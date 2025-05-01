@@ -1,0 +1,31 @@
+formattedAddress,latitude,longitude,bedrooms,bathrooms,squareFootage,propertyType,zipCode,cluster,rentcast_estimate
+"7606 Pissarro Dr, Apt 306, Orlando, FL 32819",28.435644,-81.479752,3.0,2.0,1193.0,Condo,32819,11,466000
+"401 E Robinson St, Apt 701, Orlando, FL 32801",28.546138,-81.372283,6.0,6.0,3484.0,Condo,32801,23,1113000
+"7524 Seurat St, Apt 108, Orlando, FL 32819",28.435639,-81.479225,4.0,2.0,1323.0,Condo,32819,24,464000
+"3104 Harrison Ave, Apt 20, Orlando, FL 32804",28.579834,-81.384878,2.0,2.0,1200.0,Single Family,32804,5,484000
+"4336 Lake Underhill Rd, Apt A, Orlando, FL 32803",28.535357,-81.333082,2.0,2.0,1250.0,Condo,32803,4,186000
+"6250 Masters Blvd, Orlando, FL 32819",28.458111,-81.513207,3.0,2.0,2001.0,Condo,32819,44,525000
+"6500 Sand Lake Sound Rd, # 4-4303, Orlando, FL 32819",28.443444,-81.478501,1.0,1.0,751.0,Apartment,32819,27,189000
+"2950 Plaza Terrace Dr, Orlando, FL 32803",28.561544,-81.345342,2.0,1.5,890.0,Single Family,32803,24,406000
+"562 S Osceola Ave, # 26, Orlando, FL 32801",28.535201,-81.371495,2.0,3.0,2237.0,Condo,32801,18,674000
+"7010 Lake Nona Blvd, Apt 169, Orlando, FL 32827",28.372993,-81.276509,2.0,2.0,1401.0,Apartment,32827,0,399000
+"301 Virginia Dr, Winter Park, FL 32789",28.584894,-81.346131,5.0,4.0,5493.0,Single Family,32789,9,2571000
+"603 Stetson St, Orlando, FL 32804",28.569046,-81.387529,4.0,1.0,1404.0,Single Family,32804,44,533000
+"5870 Sundown Cir, # 1015, Orlando, FL 32822",28.515659,-81.307533,1.0,1.0,770.0,Apartment,32822,6,148000
+"511 Woodlawn Blvd, Orlando, FL 32801",28.533061,-81.369481,3.0,2.5,2481.0,Single Family,32801,34,770000
+"7206 Burnway Dr, Orlando, FL 32819",28.459304,-81.49778,5.0,3.0,2284.0,Single Family,32819,21,733000
+"7069 Phillips Cove Ct, Orlando, FL 32819",28.45844,-81.487709,5.0,4.0,4650.0,Single Family,32819,38,1405000
+"87 Neruda St, Orlando, FL 32827",28.35327076,-81.25166732,4.0,4.5,3161.0,Single Family,32827,45,984000
+"1631 Berkshire Ave, Winter Park, FL 32789",28.583002,-81.371655,2.0,1.0,1067.0,Single Family,32789,30,483000
+"4100 Floralwood Ct, Orlando, FL 32812",28.487945,-81.332891,5.0,3.0,3011.0,Single Family,32812,16,782000
+"3855 Atrium Dr, Orlando, FL 32822",28.504615,-81.30106,2.0,2.0,820.0,Single Family,32822,8,347000
+"9864 Covent Garden Dr, Orlando, FL 32827",28.418762,-81.246414,3.0,6.0,5760.0,Single Family,32827,40,3233000
+"13554 Heaney Ave, Orlando, FL 32827",28.370968,-81.26044,2.0,4.0,2437.0,Single Family,32827,41,792000
+"1613 E Kaley Ave, Orlando, FL 32806",28.520607,-81.358478,2.0,1.0,808.0,Single Family,32806,30,387000
+"7319 Harlie St, Orlando, FL 32819",28.460505,-81.488284,6.0,5.5,5560.0,Condo,32819,6,1906000
+"810 E Central Blvd, Orlando, FL 32801",28.541903,-81.366982,5.0,3.5,2957.0,Single Family,32801,26,1154000
+"9100 Dowden Rd, Orlando, FL 32827",28.430636,-81.259243,2.0,2.0,28606.0,Apartment,32827,11,1456000
+"19364 Pummelo Dr, Orlando, FL 32827",28.350793,-81.237548,8.0,4.0,5294.0,Single Family,32827,47,1281000
+"2763 L B Mcleod Rd, Apt A, Orlando, FL 32805",28.511054,-81.411983,2.0,1.5,992.0,Condo,32805,11,127000
+"1605 Woodward St, Orlando, FL 32803",28.554288,-81.360035,2.0,1.0,1238.0,Single Family,32803,1,456000
+"4848 Rabama Pl, Orlando, FL 32812",28.521226,-81.326084,5.0,3.0,1958.0,Single Family,32812,34,577000
